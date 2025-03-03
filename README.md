@@ -105,11 +105,11 @@ CSV Files: Store cross-validation results for different feature extraction metho
 
 ## Contributors
 
-[Youssef Husseiny Maaod](https://github.com/yuseiff)
+[Youssef Husseiny, Maaod](https://github.com/yuseiff)
 
-[Ahmed Ashraf Abou-El-Ela](https://github.com/Ashraf1625)
+[Ahmed Ashraf, Abou-El-Ela](https://github.com/Ashraf1625)
 
-[Osama Fawzy Adel](https://github.com/OsamaElswesy)
+[Osama Fawzy, Adel](https://github.com/OsamaElswesy)
 
 ## License
 
