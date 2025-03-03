@@ -14,27 +14,27 @@ The dataset consists of:
 
 ## Methodology
 
-Data Preprocessing:
+1- Data Preprocessing:
 
-Load metadata from CSV files.
+- Load metadata from CSV files.
 
-Extract key tabular features and encode labels.
+- Extract key tabular features and encode labels.
 
-Load and preprocess spectrogram images (resize to 224×224, normalize values).
+- Load and preprocess spectrogram images (resize to 224×224, normalize values).
 
-Feature Extraction:
+2- Feature Extraction:
 
-Use Vision Transformer (ViT) and Swin Transformer models to extract high-level features from images.
+- Use Vision Transformer (ViT) and Swin Transformer models to extract high-level features from images.
 
-Combine extracted image features with tabular data.
+- Combine extracted image features with tabular data.
 
-Model Training:
+3- Model Training:
 
-Train traditional machine learning models (ANN, Random Forest, Decision Tree, SVM, XGBoost) on the combined feature set.
+- Train traditional machine learning models (ANN, Random Forest, Decision Tree, SVM, XGBoost) on the combined feature set.
 
-Perform 5-fold cross-validation to evaluate performance.
+- Perform 5-fold cross-validation to evaluate performance.
 
-Evaluation Metrics:
+4- Evaluation Metrics:
 - Accuracy
 
 - F1 Score
