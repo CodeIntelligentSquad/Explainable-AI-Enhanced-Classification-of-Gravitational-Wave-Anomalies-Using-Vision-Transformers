@@ -6,12 +6,14 @@ This project focuses on classifying gravitational wave signals using a combinati
 
 ## Dataset
 
+The dataset used in this study was collected by LIGO (Laser Interferometer Gravitational-Wave Observatory).
 The dataset consists of:
 
 - Spectrogram Images: Visual representations of gravitational wave events.
 
 - Tabular Data: Metadata features including peak frequency, bandwidth, signal-to-noise ratio (SNR), and other relevant attributes.
 
+ The dataset contains 22 unique classes representing different types of gravitational wave anomalies.
 ## Methodology
 
 1- Data Preprocessing:
@@ -54,12 +56,12 @@ Below is the visual representation of the pipeline followed in this project:
 
 To improve the interpretability of our model predictions, we applied Explainable AI (XAI) techniques. The primary methods used include:
 
-SHAP (SHapley Additive exPlanations): Used to understand feature contributions and interactions in the model's decision-making process. The SHAP interaction plots highlight which features have the most significant influence.
+- SHAP (SHapley Additive exPlanations): Used to understand feature contributions and interactions in the model's decision-making process. The SHAP interaction plots highlight which features have the most significant influence.
 
 ![SHAP_Explanation](https://github.com/user-attachments/assets/23f92a13-07e6-4870-8758-0e4aac8093c5)
 
 
-LIME (Local Interpretable Model-agnostic Explanations): Applied to generate local explanations for individual predictions, showing which features contributed the most to a specific classification decision.
+- LIME (Local Interpretable Model-agnostic Explanations): Applied to generate local explanations for individual predictions, showing which features contributed the most to a specific classification decision.
 
 ![lime_explanation](https://github.com/user-attachments/assets/d5c77699-242c-413f-a4ad-b8445adba772)
 
