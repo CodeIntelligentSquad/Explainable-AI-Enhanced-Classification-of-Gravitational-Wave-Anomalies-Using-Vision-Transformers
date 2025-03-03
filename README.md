@@ -1,0 +1,111 @@
+# Gravitational Wave Classification with Machine Learning, Vision Transformers, and Explainable AI (XAI)
+
+## Project Overview
+
+This project focuses on classifying gravitational wave signals using a combination of image and tabular data. The dataset used is the Gravity Spy dataset, which includes spectrogram images and metadata features such as frequency and amplitude. The goal is to enhance classification performance by leveraging Vision Transformer (ViT) and Swin Transformer feature extractors, followed by machine learning models.
+
+## Dataset
+
+The dataset consists of:
+
+- Spectrogram Images: Visual representations of gravitational wave events.
+
+- Tabular Data: Metadata features including peak frequency, bandwidth, signal-to-noise ratio (SNR), and other relevant attributes.
+
+## Methodology
+
+Data Preprocessing:
+
+Load metadata from CSV files.
+
+Extract key tabular features and encode labels.
+
+Load and preprocess spectrogram images (resize to 224×224, normalize values).
+
+Feature Extraction:
+
+Use Vision Transformer (ViT) and Swin Transformer models to extract high-level features from images.
+
+Combine extracted image features with tabular data.
+
+Model Training:
+
+Train traditional machine learning models (ANN, Random Forest, Decision Tree, SVM, XGBoost) on the combined feature set.
+
+Perform 5-fold cross-validation to evaluate performance.
+
+Evaluation Metrics:
+- Accuracy
+
+- F1 Score
+
+- Precision
+
+- Recall
+
+Pipeline
+
+Below is the visual representation of the pipeline followed in this project:
+
+![Pipeline](pipeline.png)
+
+## Explainable AI (XAI)
+
+To improve the interpretability of our model predictions, we applied Explainable AI (XAI) techniques. The primary methods used include:
+
+SHAP (SHapley Additive exPlanations): Used to understand feature contributions and interactions in the model's decision-making process. The SHAP interaction plots highlight which features have the most significant influence.
+
+![SHAP Explanation](SHAP_Explanation.jpg)
+
+LIME (Local Interpretable Model-agnostic Explanations): Applied to generate local explanations for individual predictions, showing which features contributed the most to a specific classification decision.
+
+![LIME Explaination](lime_explanation.png)
+
+These techniques help provide transparency into the model's decision process, ensuring reliability and trust in our classification system.
+
+## Scientific Explanation: What Are Gravitational Waves?
+
+Gravitational waves are ripples in the fabric of spacetime caused by the acceleration of massive objects, such as merging black holes or neutron stars. First predicted by Albert Einstein in 1916 as a consequence of his General Theory of Relativity, these waves propagate at the speed of light, carrying energy away from their sources.
+
+## How Do Gravitational Waves Form?
+
+When massive objects, like black holes or neutron stars, orbit each other closely, they generate gravitational waves. These waves cause tiny distortions in space and time as they pass through the universe. The first direct detection of gravitational waves was made in 2015 by the LIGO (Laser Interferometer Gravitational-Wave Observatory) collaboration, confirming Einstein's predictions and opening a new era in astrophysics.
+
+## Importance of Gravitational Wave Detection
+
+Detecting gravitational waves allows scientists to explore the universe in a new way, providing insights into cosmic events that are otherwise invisible through traditional telescopes. These detections help us understand fundamental physics, test Einstein’s theory of relativity, and study exotic astrophysical phenomena like black hole mergers and neutron star collisions.
+
+## Gravitational Waves Visualization
+
+To help visualize the concept of gravitational waves, see the animation below:
+
+![Gravitational Waves 1](Gravitational_Waves_1.mp4)
+
+![Gravitational Waves 2](Gravitational_Waves_2.mp4)
+
+## Results
+
+The final performance comparison of ML models with Swin and ViT feature extractors is documented in:
+
+`5Fold final results for ML models and Swin features extractor.csv`
+
+`5Fold final results for ML models and ViT features extractor.csv`
+
+Repository Contents
+
+`Gravitational_Waves.ipynb`: Jupyter notebook containing the full workflow for data loading, preprocessing, feature extraction, and model training.
+
+CSV Files: Store cross-validation results for different feature extraction methods.
+
+## Contributors
+
+[Youssef Husseiny Maaod](https://github.com/yuseiff)
+
+[Ahmed Ashraf Abou-El-Ela](https://github.com/Ashraf1625)
+
+[Osama Fawzy Adel](https://github.com/OsamaElswesy)
+
+## License
+
+This project is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
