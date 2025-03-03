@@ -84,8 +84,7 @@ Detecting gravitational waves allows scientists to explore the universe in a new
 
 To help visualize the concept of gravitational waves, see the animation below:
 
-https://github.com/user-attachments/assets/dd324a38-82b2-4166-a319-262f33444a49
-
+https://github.com/user-attachments/assets/5553ce24-ed65-42a2-9fbb-976e3beebdb1
 
 https://github.com/user-attachments/assets/626cb909-480a-4744-bb22-2492d243cc8b
 
