@@ -1,4 +1,4 @@
-# Gravitational Wave Classification with Machine Learning, Vision Transformers, and Explainable AI (XAI)
+# XAI-Enhanced Classification of Gravitational Wave Anomalies Using Machine Learning and Vision Transformers
 
 ## Project Overview
 
