@@ -47,7 +47,8 @@ Pipeline
 
 Below is the visual representation of the pipeline followed in this project:
 
-![Pipeline](pipeline.png)
+![pipeline](https://github.com/user-attachments/assets/1ba4bacf-36da-4182-af08-537370ebd661)
+
 
 ## Explainable AI (XAI)
 
@@ -55,11 +56,13 @@ To improve the interpretability of our model predictions, we applied Explainable
 
 SHAP (SHapley Additive exPlanations): Used to understand feature contributions and interactions in the model's decision-making process. The SHAP interaction plots highlight which features have the most significant influence.
 
-![SHAP Explanation](SHAP_Explanation.jpg)
+![SHAP_Explanation](https://github.com/user-attachments/assets/23f92a13-07e6-4870-8758-0e4aac8093c5)
+
 
 LIME (Local Interpretable Model-agnostic Explanations): Applied to generate local explanations for individual predictions, showing which features contributed the most to a specific classification decision.
 
-![LIME Explaination](lime_explanation.png)
+![lime_explanation](https://github.com/user-attachments/assets/d5c77699-242c-413f-a4ad-b8445adba772)
+
 
 These techniques help provide transparency into the model's decision process, ensuring reliability and trust in our classification system.
 
@@ -79,9 +82,14 @@ Detecting gravitational waves allows scientists to explore the universe in a new
 
 To help visualize the concept of gravitational waves, see the animation below:
 
-![Gravitational Waves 1](Gravitational_Waves_1.mp4)
+![Gravitational_Waves_1.mp4](https://github.com/user-attachments/assets/dd324a38-82b2-4166-a319-262f33444a49)
 
-![Gravitational Waves 2](Gravitational_Waves_2.mp4)
+
+
+https://github.com/user-attachments/assets/626cb909-480a-4744-bb22-2492d243cc8b
+
+
+![Gravitational Waves 2](https://github.com/user-attachments/assets/626cb909-480a-4744-bb22-2492d243cc8b)
 
 ## Results
 
