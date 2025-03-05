@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project focuses on classifying gravitational wave signals using a combination of image and tabular data. The dataset used is the Gravity Spy dataset, which includes spectrogram images and metadata features such as frequency and amplitude. The goal is to enhance classification performance by leveraging Vision Transformer (ViT) and Swin Transformer feature extractors, followed by machine learning models.
+![Screenshot_2025-03-06_000906](https://github.com/user-attachments/assets/d2f6028e-08dd-4f93-b3d5-22b0ff2135af)
 
 ## Dataset
 
