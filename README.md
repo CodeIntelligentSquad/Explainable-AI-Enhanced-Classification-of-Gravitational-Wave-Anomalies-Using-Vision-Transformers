@@ -1,5 +1,4 @@
-# XAI-Enhanced Classification of Gravitational Wave Anomalies Using Machine Learning and Vision Transformers
-
+# Explainable AI-Based Enhanced Classification of Gravitational Wave Anomalies Using Vision Transformers
 ## Project Overview
 
 This project focuses on classifying gravitational wave signals using a combination of image and tabular data. The dataset used is the Gravity Spy dataset, which includes spectrogram images and metadata features such as frequency and amplitude. The goal is to enhance classification performance by leveraging Vision Transformer (ViT) and Swin Transformer feature extractors, followed by machine learning models.
